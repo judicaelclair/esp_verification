@@ -24,4 +24,4 @@ Due to copyright reasons, the build files cannot be made publicly available. Ple
 
 That being said, by default, the NoC model that is as general as possible is enabled. Accordingly, assertions that leverage this model are enabled and take too long to be proven (at least several weeks). If you would like to instead enable the highly constrained NoC model along with its associated highly constrained assertions that take one or two minutes to be proven, set the macro `FAST=1` when building.
 
-If you would like to verify assertions that are **expected to fire**, set the macro `ENABLE_FIRED=1` when building. Note, different assertions are enabled depending on the value of `FAST`. To see all the assertions that are expected to fire to actually fire, run the following,
+If you would like to verify assertions that are **expected to fire**, set the macro `ENABLE_FIRED=1` when building. Note, different assertions are enabled depending on the value of `FAST`.
