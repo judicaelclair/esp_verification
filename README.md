@@ -1,6 +1,6 @@
 # CSEE E6863: Formal Verification Project
 
-In this project, we verified ESP's `axislv2noc` component, which will be referred to as the Design-Under-Test (DUT). You can find the ESP repository [here](https://github.com/sld-columbia/esp).
+In this project, we formally verified ESP's `axislv2noc` component, which will be referred to as the Design-Under-Test (DUT). You can find the ESP repository [here](https://github.com/sld-columbia/esp).
 
 ## Project Structure
 
